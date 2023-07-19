@@ -49,7 +49,7 @@
 						</td>
 						
 						<td>
-							<form th:action="@{/contatos/{contato}(contato=${contato.id})}" method="delete">
+							<form th:action="@{/contatos/{contato}(contato=${contato.id})}" th:method="delete">
 								<button>Remover</button>
 							</form>
 						</td>
